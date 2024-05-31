@@ -698,6 +698,8 @@ public:
 
         SphereCoord sc = recast(s, system);
 
+        P->populate(cos(temp.s.theta), N + 1, N  + 1);
+     
         for(int i = 0; i < terms.size();i++)
             for (int j = 0; j < terms[i].size();j++)
             {
@@ -715,6 +717,8 @@ public:
     {
         double temp = 0.0;
 
+       P->populate(cos(temp.s.theta), N + 1, N  + 1);
+     
         SphereCoord sc = recast(s, system);
 
         for (int i = 0; i < terms.size(); i++)
@@ -736,6 +740,8 @@ public:
 
         SphereCoord sc = recast(s, system);
 
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
+
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
             {
@@ -754,6 +760,8 @@ public:
         double temp = 0.0;
 
         SphereCoord sc = recast(s, system);
+
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
 
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
@@ -774,6 +782,8 @@ public:
 
         SphereCoord sc = recast(s, system);
 
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
+
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
             {
@@ -790,6 +800,8 @@ public:
     double ePhi_dR(const SphereCoord & s) const
     {
         double temp = 0.0;
+
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
 
         SphereCoord sc = recast(s, system);
 
@@ -810,6 +822,8 @@ public:
     {
         double temp = 0.0;
 
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
+
         SphereCoord sc = recast(s, system);
 
         for (int i = 0; i < terms.size(); i++)
@@ -829,6 +843,8 @@ public:
     {
         double temp = 0.0;
 
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
+
         SphereCoord sc = recast(s, system);
 
         for (int i = 0; i < terms.size(); i++)
@@ -847,6 +863,8 @@ public:
     double ePhi_dTheta(const SphereCoord & s) const
     {
         double temp = 0.0;
+
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
 
         SphereCoord sc = recast(s, system);
 
@@ -869,6 +887,8 @@ public:
 
         SphereCoord sc = recast(s, system);
 
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
+
         for (int i = 0; i < terms.size(); i++)
             for (int j = 0; j < terms[i].size(); j++)
             {
@@ -885,6 +905,8 @@ public:
     double eTheta_dPhi(const SphereCoord & s) const
     {
         double temp = 0.0;
+
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
 
         SphereCoord sc = recast(s, system);
 
@@ -904,6 +926,8 @@ public:
     double ePhi_dPhi(const SphereCoord & s) const
     {
         double temp = 0.0;
+
+     P->populate(cos(temp.s.theta), N + 1, N  + 1);
 
         SphereCoord sc = recast(s, system);
 
